@@ -1,0 +1,142 @@
+form h4 {
+    font-size: 18px;
+}
+ 
+form input {
+
+    padding: 7px 10px;
+    height: 35px;
+    outline: 0;
+    border: 1px solid #ccc;
+
+
+}
+
+form select {
+    padding: 7px 10px;
+    height: 35px;
+    outline: 0;
+    border: 1px solid #ccc;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+nav {
+    font-family: fantasy;
+}
+
+form {
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+
+.row {
+
+    margin-top: 20px;
+
+}
+
+
+.contact-form {
+    padding: 7px 10px;
+    height: 35px;
+
+
+
+}
+
+.col-sm-8 input {
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+.col-sm-8 select {
+
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+textarea {
+    height: 80px;
+    padding: 7px 10px;
+    min-width: 280px;
+    border: 1px solid #ccc;
+    margin-bottom: 200px;
+}
+
+form textarea {
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+label input {
+    position: relative;
+    top: 12px;
+
+}
+
+.extraselect {
+    position: relative;
+    
+    
+}
+
+.left-menu ul li {
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 13px;
+
+}
+
+.left-menu ul .mm-home .service {
+    color: darkred;
+    position: relative;
+    top: 130px;
+
+}
+
+.left-menu ul li ul a {
+    position: relative;
+    top: 130px;
+    right: 20px;
+
+    color: dimgray;
+}
+
+.btn-next {
+    text-decoration:none;
+    color: #fff;
+    padding: 10px 5px 10px 10px;
+    background-color: darkred;
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    border: 0;
+
+
+}
+
+.btn-next i {
+    padding-left: 100px;
+}
+.service{
+    font-family: fantasy;
+}
+
+.Customerİnformation div{
+   
+    margin:20px;
+    font-family: sans-serif;
+    font-size:14px;
+}
+.Customerİnformation h4{
+    color: darkred;
+    font-family: fantasy;
+}
+

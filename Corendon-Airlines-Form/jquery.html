@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" >
+    <title>Document</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="file:///C:/Users/Saliha%20%C5%9EAH%C4%B0N/Desktop/Modern%20javascript/style5.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+</head>
+
+
+
+<body class="container container-sm mt-5 bg-light">
+    <nav class="navbar navbar-expand-sm  navbar-dark fixed-top" style="background-color:darkred; opacity: 0.8;">
+        <div class="container">
+            <a href="/" class="navbar-brand">Corendon Airlines</a>
+
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div id="navbarcollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="." class="nav-link active">SEYAHAT BİLGİLERİ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">İLETİŞİM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">UÇUŞLAR</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="row ">
+        <div class="col-sm-3 mb-5">
+            <nav class="left-menu">
+                <ul>
+                    <li class="mm-home ">
+                        <a href="#" class="service" title="Sevis Merkezi">Servis Merkezi</a>
+                        <ul>
+                            <li>
+                                <a href="#" title="Genel Müdürlük">Genel Müdürlük
+
+                                </a>
+                            </li>
+                            <li><a href="#" title="Müşteri İletişim Formu">Müşteri İletişim Formu</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Haberdar Ol">Haberdar Ol</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Şikayet Yönetimi">
+                                    Şikayet Yönetimi
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-sm-9 mt-5">
+            <form action="" class="contact-form container ">
+
+                <div class="row mt-5">
+                    <div class="col-xs-12">
+                        <label for="radio1" class="radio rbtn1 " >
+                            <input type="radio"  name="radio" class="rbtn1b " id="radio1" checked="checked" >
+                            Biletim var
+                        </label>
+                        &nbsp;
+                        <label for="radio2" class="radio rbtn2">
+                            <input type="radio" name="radio" id="radio2">
+                            Biletim yok
+                        </label>
+
+
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4>Kimlik Bilgileri</h4>
+                        <div class="row ">
+                            <div class="col-sm-4">
+                                İsim
+                            </div>
+
+                            <div class="col-sm-8 ">
+                                <input type="text" name="name" id="name" data-val-required="İsim alanı gereklidir.">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                Soy İsim
+                            </div>
+                            <div class="col-sm-8">
+                                <input type="text" name="surname" id="surname" data-val-required="Soyisim alanı gereklidir.">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4>İrtibat Bilgileri</h4>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                Telefon
+                            </div>
+                            <div class="col-sm-8">
+                                <input type="tel" name="Phone" id="Phone" data-val-required="Telefon alanı gereklidir.">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                E-posta Adresi
+                            </div>
+                            <div class="col-sm-8">
+                                <input type="text" name="email" id="email" data-val-required="E-posta adresinizi kontrol ediniz.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="informationCategory">
+                    <hr>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4>Uçuş Bilgisi</h4>
+
+                        </div>
+
+                    </div>
+                    <div class="row ">
+                        <div class="col-sm-12" id="flightİnformation">
+                            <label for="radio3" class="radio rbtn3">
+                                <input type="radio"  checked="checked" name="radio3" id="radio3">
+                                Gidiş dönüş
+                            </label>
+                            &nbsp;
+                            <label for="radio4" class="radio rbtn4">
+                                <input type="radio" name="radio3" id="radio4">
+                                Tek yön
+                            </label>
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 PNR">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        PNR*
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input type="text" id="PNR" name="PNR" data-value-requide="The PNR field is required." value aria-required="true">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-sm-6 going">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h4> <i class="fas fa-plane-departure"></i>
+
+                                        Gidiş Uçuşu
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 ">
+                                    Hareket
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" name="departure" id="departure" data-value-required="The Departure Airport field is required.">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-4 ">
+                                    Varış
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" name="arrival" id="arrival" data-value-required="The Departure Airport field is required.">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 ">
+                                    Uçuş Numarası
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" name="flightnum" id="flightnum" data-value-required="The Departure Airport field is required.">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 going-date" >
+                                    Gidiş Tarihi
+                                </div>
+                                <div class="col-sm-8" id="departure-flight">
+                                    <input type="text" name="goingdate" id="goingdate" data-value-required="The Departure Airport field is required.">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 return">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h4> <i class="fas fa-plane-arrival"></i>
+
+                                        Dönüş Uçuşu
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 ">
+                                    Hareket
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" name="departure" id="departure2" data-value-required="The Departure Airport field is required.">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-4 ">
+                                    Varış
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" name="arrival" id="arrival2" data-value-required="The Departure Airport field is required.">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 ">
+                                    Uçuş Numarası
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" name="flightnum2" id="flightnum2" data-value-required="The Departure Airport field is required.">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 return-date">
+                                    Dönüş Tarihi
+                                </div>
+                                <div class="col-sm-8" id="return-flight">
+                                    <input type="text" name="returndate" id="returndate" data-value-required="The Departure Airport field is required.">
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                
+                  <hr>
+                  <div class="category">
+                    <div class="row" id="chooseCategory">
+                        <div class="col-sm-12" >
+                            <h4>Kategori</h4>
+                        </div>
+                        <div class="col-sm-12">
+                            <label for="radio5" class="radio rbtn5">
+                                <input checked="checked" type="radio" id="radio5" name="radio5" value="1" >
+                                Uçuş
+                            </label>
+                            &nbsp;
+                            <label for="radio6" class="radio rbtn6">
+                                <input type="radio" id="radio6" name="radio5" value="2">
+
+                                Ekstralar
+
+                            </label>
+                            &nbsp;
+                            <label for="radio7" class="radio rbtn7">
+                                <input type="radio" id="radio7" name="radio5" value="3" >
+                                Operasyon
+                            </label>
+                            &nbsp;
+                            <label for="radio8" class="radio rbtn8">
+                                <input type="radio" name="radio5" id="radio8" value="4" >
+                                Görüş ve Önerileriniz
+                            </label>
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div class="col-sm-6 select">
+                        <div class="row flight">
+                            <div class="col-sm-4">
+                                Uçuş
+                            </div>
+                            <div class="col-sm-8">
+
+                                <select name="FligtReasonType"  data-val-required="Required" id="FlightReasonType">
+                                    <option value>Seç</option>
+                                    <option value="Cancellation">İptal</option>
+                                    <option value="Change">Değişiklik</option>
+                                    <option value="Delay">Gecikme</option>
+                                    <option value="NotAdmittedToFlight">Uçuşa kabul edilmedi</option>
+                                    <option value="Other">Diğer</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="row extra" style="display:none;">
+                            <div class="col-sm-4">
+                                Ekstralar
+                            </div>
+                            <div class="col-sm-8">
+
+                                <select name="FligtReasonType" data-val-required="Required" id="FlightReasonType">
+                                    <option value>Seç</option>
+                                    <option value="Seat">Koltuk</option>
+                                    <option value="Baggage">Bagaj</option>
+                                    <option value="Meal">Yemek</option>
+                                    <option value="SportBaggage">Spor Çantası</option>
+
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="row operation" style="display:none;">
+                            <div class="col-sm-4">
+                                Operasyon
+                            </div>
+                            <div class="col-sm-8">
+
+                                <select name="FligtReasonType" data-val-required="Required" id="FlightReasonType">
+                                    <option value>Seç</option>
+                                    <option value="CustomerRelation">Müşteri İlişkileri</option>
+                                    <option value="AVIH">AVIH(Kargo bölümünde taşınan ev hayvanalrı)</option>
+                                    <option value="PetC">PetC(Kabin bölümünde taşınan ev hayvanları)</option>
+                                    <option value="UM">(6-12 yaş arasında refakatsız çocuk)</option>
+                                    <option value="LAndF">Kayıp buluntu eşyalar</option>
+                                    <option value="Other">Diğer</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="row proposal" style="display:none;">
+                            <div class="col-sm-4">
+                                Görüş ve Önerileriniz
+                            </div>
+                            <div class="col-sm-8">
+
+                                <select name="FligtReasonType" data-val-required="Required" id="FlightReasonType">
+                                    <option value>Seç</option>
+                                    <option value="PassengerRights">Yolcu Hakları</option>
+                                    <option value="Website">İnternet Sitesi</option>
+                                    <option value="Company">Şirket</option>
+                                    <option value="InFLightServices1">Uçak İçi Hizmetler</option>
+                                    <option value="CallCenter">Çağrı Merkezi</option>
+                                    <option value="Other">Diğer</option>
+                                    <option value="InformationRequest">Genel Bilgi Talebi</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+                 
+                <div class=" extracategory " style="display: none">
+                    <hr>
+                    <div class="col-sm-12">
+                        <h4>Kategori</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label for="" class="radio ">
+                                <input type="radio" checked="checked " name="categorytype" value="4" id="CategoryType4">
+                                Görüş ve Önerileriniz
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row extracategory ">
+                        <div class="col-sm-4 ">
+                            Görüş ve Önerileriniz:
+                        </div>
+                        <div class="col-sm-8 extraselect">
+
+                            <select name="SuggestType" id="SuggestType" data-val-required="Required" required  aria-required="true">
+                                <option value>Seç</option>
+                                <option value="PassengerRights">Yolcu Hakları</option>
+                                <option value="Company">Şirket</option>
+                                <option value="InFLightServices1">Uçak İçi Hizmetler</option>
+                                <option value="CallCenter1">Çağrı Merkezi</option>
+                                <option value="Other">Diğer</option>
+                                <option value="InformationRequest">Genel Bilgi Talebi</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                </div>
+                
+                <hr>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4>Mesajınız</h4>
+                        <textarea name="Message" id="Message" cols="20" rows="2" data-val-required="The message field is required." aria-required="true"></textarea>
+                    </div>
+                </div>
+              <div >
+                <button type="submit" class="btn-next mb-5" id="loginbtn">
+                    Devam
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+       
+              <div class="row Customerİnformation">
+                <hr>
+                
+                <div class="col-sm-12" style="display:none">
+                 <h4>Müşteri İletişim Formu Bilgileriniz</h4>
+                <p >İsim: <span class="Name"></span> </p>
+                <p>Soyisim: <span class="Surname"></span> </p>
+                <p >Telefon: <span class="phone"></span> </p>
+                <p >Email: <span class="email"></span> </p>
+                <p >PNR: <span class="pnr"></span> </p>
+                <hr><h4>Gidiş Uçuşu Bilgileriniz</h4>
+                <p >Hareket: <span class="Departure"></span> </p>
+                <p>Varış:<span class="Arrival"></span> </p>
+                <p>Uçuş Numarsı:<span class="FlightNum"></span> </p>
+                <p>Gidiş Tarihi: <span class="GoingDate"></span></p>
+                <hr><h4>Dönüş Uçuşu Bilgileriniz</h4>
+                <p>Hareket:<span class="Departure2"></span> </p>
+                <p>Varış: <span class="Arrival2"></span></p>
+                <p>Uçuş Numarası:<span class="FlightNum2"></span> </p>
+                <p>Dönüş Tarihi:<span class="ReturnDate"></span> </p>
+                <p>Mesajınız: <span class="message"></span></p>
+
+
+                </div>
+                  
+                    
+                   
+                </div>
+                
+
+            </form>
+           
+            
+        </div>
+    </div>
+   
+
+
+  
+
+ <script src="script.js" type="text/Javascript" ></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
